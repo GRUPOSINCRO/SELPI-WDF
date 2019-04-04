@@ -3,7 +3,7 @@ html, body{
 	font-size:15px;
 	height: 100%;
 }
-body{ background: #ccc; }
+body{padding: 50px; background: #ccc; }
 .divHome{
 	text-align:center;
 	overflow:auto;
