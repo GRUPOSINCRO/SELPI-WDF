@@ -1,27 +1,27 @@
 html, body{
-	font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size:15px;
-	height: 100%;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size:15px;
+    height: 100%;
 }
-body{ background: #ccc; }
+body{padding: 50px; background: #ccc; }
 .divHome{
-	text-align:center;
-	overflow:auto;
+    text-align:center;
+    overflow:auto;
 }
 
 .subAbove{
-	background-color: #fff;
+    background-color: #fff;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
 #avisoCookies{
-	position:fixed;
-	padding:10px;
-	left:10px;
-	bottom:10px;
-	border:1px #959595 solid;
-	background:#FFFFFF;
-	z-index:999;
+    position:fixed;
+    padding:10px;
+    left:10px;
+    bottom:10px;
+    border:1px #959595 solid;
+    background:#FFFFFF;
+    z-index:999;
 }
 
 #avisoCookiesIzq{
@@ -34,8 +34,8 @@ body{ background: #ccc; }
 }
 
 #avisoCookiesDcha{
-	float:right;
-	padding-left:5px;
+    float:right;
+    padding-left:5px;
 }
 
 #aboveFondo{ height:100vh;width:100%; background-color: transparent;
@@ -46,68 +46,68 @@ body{ background: #ccc; }
 
 #keywordIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #keywordDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 #pagerankIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #pagerankDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 
 #arquitecturaIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #arquitecturaDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 #auditoriaIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #auditoriaDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 #densidadIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #densidadDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 #analisisIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #analisisDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 #gestionIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #gestionDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 #deteccionIzquierda{
     position: relative;
-	left: -300px;
+    left: -300px;
 }
 #deteccionDerecha{
     position: relative;
-	right: -300px;
+    right: -300px;
 }
 
 #diagonal{ margin-top:-135px;transform: rotate(180deg); }
@@ -115,44 +115,44 @@ body{ background: #ccc; }
 #imagenQueEs{ height:200px; }
 
 #funcDesp{     
-	position: fixed;
+    position: fixed;
     border: 0px solid;
     text-align: left;
-	display:none;
-	margin:auto;
-	width:350px;
-	background-color: rgba(20,20,20,0.5);
+    display:none;
+    margin:auto;
+    width:350px;
+    background-color: rgba(20,20,20,0.5);
 }
 
 .funcDesp2{
-	position: fixed;
+    position: fixed;
     border: 0px solid;
     text-align: left;
-	display:none;
-	margin:auto;
-	width:350px;
-	background-color: #ccc !important;	
+    display:none;
+    margin:auto;
+    width:350px;
+    background-color: #ccc !important;	
 }
 
 .menuTopCompleto{ 
     position: fixed;
     padding: 10px;
-	z-index:999;
-	width:100%;
-	background-color: rgba(20,20,20,0.13);
+    z-index:999;
+    width:100%;
+    background-color: rgba(20,20,20,0.13);
     box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.15);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;	
 }
- 
+
 .menuTopCompleto2{
     position: fixed;
     padding: 10px;
-	z-index:999;
-	width:100%;
-	background-color: rgb(224, 224, 224);
+    z-index:999;
+    width:100%;
+    background-color: rgb(224, 224, 224);
     box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.15);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;		
-	color:#000;
+    color:#000;
 }
 #contenedorInterior{ min-height: 100vh; margin-bottom:100px; }
 footer{ overflow: auto; clear: both; font-size:1rem;}
@@ -212,8 +212,8 @@ table th{ font-weight:bold; text-align:left; color:#000; }
 th a { color:#000; font-weight:bold;}
 .avisoGrafico{ text-align:center;clear:both; margin-bottom:20px;}  
 .homeModulo{ float:left; width:310px; text-align:left; height:270px; margin:15px; padding:30px; font-size:14px;
- padding-top:50px; cursor:pointer; box-shadow: 5px 5px 45px 5px #ccc; border: 1px solid #fff; border-radius:10px 10px 10px 10px; background:#fff;}
- 
+    padding-top:50px; cursor:pointer; box-shadow: 5px 5px 45px 5px #ccc; border: 1px solid #fff; border-radius:10px 10px 10px 10px; background:#fff;}
+
 .homeModulo a{ font-weight:bold; color:#000; font-size:18px;}
 .homeModulo:hover{ border:1px #3939fb solid; } 
 .homeModulo .title{ font-weight:bold; font-size:16px;     line-height: 22px; margin-bottom:10px;}
@@ -319,23 +319,23 @@ th a { color:#000; font-weight:bold;}
     background-image: linear-gradient(180deg, #82fab7 0%, #1fa2ff 100%);
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 0px;
-	min-height:100vh;
-    }
+    min-height:100vh;
+}
 #fondoPrecios{         background-image: url(../img/fondoPrecios.png);
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: contain;
     opacity: 0.19;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s; 
-	min-height: 100vh;
-	}
+    min-height: 100vh;
+}
 #contPrecios{
     margin-right: auto;
     margin-left: auto;
     position: relative;	
-	margin-top:-100vh;
-	padding-top:120px;
-	text-align:center;
+    margin-top:-100vh;
+    padding-top:120px;
+    text-align:center;
 
 }
 #formTPV{ clear:both; }
@@ -379,23 +379,23 @@ th a { color:#000; font-weight:bold;}
 
 
 .nota{
-	border: 1px #ccc solid;
+    border: 1px #ccc solid;
     padding: 20px;
     margin-bottom: 20px;
 }
 .fechaNota{
-	float: left;
+    float: left;
     font-weight: bold;	
 }
 .borraNota{
-	float: right;
+    float: right;
 }
 .textoNota{
-	clear: both;
+    clear: both;
     padding-top: 20px;
 }
 #nuevaNota{     
-	width: 100%;
+    width: 100%;
     height: 80px; 
 }
 #botonAgregarNota{ float:right; }
@@ -404,58 +404,58 @@ th a { color:#000; font-weight:bold;}
 /*SWITCH HOME*/
 
 .switch {
-  position: relative;
-  #display: inline-block;
-  width: 60px;
-  height: 34px;
+    position: relative;
+    #display: inline-block;
+    width: 60px;
+    height: 34px;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
 }
 
 input:checked + .slider {
-  #background-color: #2196F3;
-  background-color: #ccc;
+    #background-color: #2196F3;
+    background-color: #ccc;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #ccc;
+    box-shadow: 0 0 1px #ccc;
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
 }
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+    border-radius: 34px;
 }
 
 .slider.round:before {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 #controlKeyword0{ display:none; }
@@ -468,238 +468,237 @@ input:checked + .slider:before {
 #controlDeteccion0{ display:none; }
 
 .node { 
-  cursor: pointer;
-  stroke: #3182bd;
-  stroke-width: 1.5px;
+    cursor: pointer;
+    stroke: #3182bd;
+    stroke-width: 1.5px;
 }
 
 .link {
-  fill: none;
-  stroke: #9ecae1;
-  stroke-width: 1.5px;
+    fill: none;
+    stroke: #9ecae1;
+    stroke-width: 1.5px;
 }
 div.tooltip {	
-	position: absolute;			
-	text-align: left;			
-	padding: 10px;				
-	font: 12px sans-serif;		
-	background: lightsteelblue;	
-	border: 0px;		
-	border-radius: 8px;			
-	pointer-events: none;			
+    position: absolute;			
+    text-align: left;			
+    padding: 10px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
 }
 
 @media print, screen and (max-width: 1900px) {
-	.homeModulo{ width:22%;  }
-	.menuTexto{ width:350px; }
+    .homeModulo{ width:22%;  }
+    .menuTexto{ width:350px; }
 }
 
 @media print, screen and (max-width: 1800px) {
-	.menuTexto{ width:250px; }
-	#contTestimonios{ width:75% }
-	.homeModulo{ width:29%; min-width:260px; padding:30px;}
-	.menuTexto{ width:250px; }
-	#zonaMenu{ margin:auto; width:100%; }
-	#above{ width:220%; margin-left:-40%; margin-top:-300px;}
-	.divH1{ padding-left:31%; }
-	.textoQue{ padding-top:20px; }
-/*	body{
-		-moz-transform: scale(0.9, 0.9);
-		zoom: 0.9; 
-		zoom: 90%; 
-	}
-	.modal{
-		-moz-transform: scale(1.1, 1.1); 
-		zoom: 1.1; 
-		zoom: 110%; 
-	}	
-*/	
-	.textoTestimonio{ min-height:205px; }
-	.testContPersona{ min-height:75px; }
-	.testimonio{ width:44%; }
-	
+    .menuTexto{ width:250px; }
+    #contTestimonios{ width:75% }
+    .homeModulo{ width:29%; min-width:260px; padding:30px;}
+    .menuTexto{ width:250px; }
+    #zonaMenu{ margin:auto; width:100%; }
+    #above{ width:220%; margin-left:-40%; margin-top:-300px;}
+    .divH1{ padding-left:31%; }
+    .textoQue{ padding-top:20px; }
+    /*	body{
+    -moz-transform: scale(0.9, 0.9);
+    zoom: 0.9; 
+    zoom: 90%; 
+}
+    .modal{
+    -moz-transform: scale(1.1, 1.1); 
+    zoom: 1.1; 
+    zoom: 110%; 
+}	
+    */	
+    .textoTestimonio{ min-height:205px; }
+    .testContPersona{ min-height:75px; }
+    .testimonio{ width:44%; }
+
 }
 
 @media print, screen and (max-width: 1700px) {
-	.testimonio{ margin:45px; }
-	.testimonio{ width:42%; }
-	.textoTestimonio{ min-height:225px; }
+    .testimonio{ margin:45px; }
+    .testimonio{ width:42%; }
+    .textoTestimonio{ min-height:225px; }
 }
 
 @media print, screen and (max-width: 1500px) {
-	.testimonio{ width:41%; }
-	.textoTestimonio{ min-height:255px; }
+    .testimonio{ width:41%; }
+    .textoTestimonio{ min-height:255px; }
 }
 
 @media print, screen and (max-width: 1400px) {
-	.interiorContenedor{  padding:20px 20px 0px 20px; }
-	#interiorHome{ padding:20px 10px 0px 10px !important; }
-	#above{ width:230%; margin-left:-60%; margin-top:-400px;}
-	#dinoHome{  margin-left: 0%; }
-	#queEsTexto{ width:75%; }
-	.divH1{ padding-left:30%; }
-	.textoQue{ padding-top:40px; }
-	.moduloOffPage{ width:43%; }
-	#contTestimonios{ width:85%; }
+    .interiorContenedor{  padding:20px 20px 0px 20px; }
+    #interiorHome{ padding:20px 10px 0px 10px !important; }
+    #above{ width:230%; margin-left:-60%; margin-top:-400px;}
+    #dinoHome{  margin-left: 0%; }
+    #queEsTexto{ width:75%; }
+    .divH1{ padding-left:30%; }
+    .textoQue{ padding-top:40px; }
+    .moduloOffPage{ width:43%; }
+    #contTestimonios{ width:85%; }
 }
 
 @media print, screen and (max-width: 1300px) {
-	.menuTexto{ width:220px; }
+    .menuTexto{ width:220px; }
 }
 
 @media print, screen and (max-width: 1200px) {
-	.menuTexto{ width:180px; }
-	.testimonio{ padding:30px; margin:30px; width:42%; }
+    .menuTexto{ width:180px; }
+    .testimonio{ padding:30px; margin:30px; width:42%; }
 }
 
 @media print, screen and (max-height: 950px) {
-	.divHome{ height:auto; m}
-	#precios{ overflow:auto; }
-	#interiorLogo{ position:relative; }
-	-moz-transform: scale(1, 1); /* Moz-browsers */
-	zoom: 1; /* Other non-webkit browsers */
-	zoom: 100%; /* Webkit browsers */	
+    .divHome{ height:auto; m}
+    #precios{ overflow:auto; }
+    #interiorLogo{ position:relative; }
+    -moz-transform: scale(1, 1); /* Moz-browsers */
+    zoom: 1; /* Other non-webkit browsers */
+    zoom: 100%; /* Webkit browsers */	
 }
 
 @media print, screen and (max-width: 1050px) {
-	#interiorLogo img{ width:240px; }
-	.homeModulo{ width:300px; height:260px; }
-	#h1Home{ font-size:85px; }
-	.menuTop{ margin:5px; margin-top:15px; }
-	#queEsHome{ padding-top:90px; }
-	#queEsTexto{ width:100%; }
-	.textoTestimonio{ font-size:15px; }
-	#contTestimonios{ width:100%; padding-top:30px;} 
-	#testimonios{ padding-top:80px; }
-	.producto{ width:500px; float:none; }
-	#subContPrecios{ width: 550px; margin: auto; padding-left:0px;}
-	#precios{ height:auto; padding-bottom:30px; }
-	#fondoPrecios{ display:none; }
-	#contPrecios{ margin-top:0px; }
-	.usuarioModulo{ width:100%; }
-	.menuTexto{ width:150px; }
-	.divH1{ padding-left:31%; }
+    #interiorLogo img{ width:240px; }
+    .homeModulo{ width:300px; height:260px; }
+    #h1Home{ font-size:85px; }
+    .menuTop{ margin:5px; margin-top:15px; }
+    #queEsHome{ padding-top:90px; }
+    #queEsTexto{ width:100%; }
+    .textoTestimonio{ font-size:15px; }
+    #contTestimonios{ width:100%; padding-top:30px;} 
+    #testimonios{ padding-top:80px; }
+    .producto{ width:500px; float:none; }
+    #subContPrecios{ width: 550px; margin: auto; padding-left:0px;}
+    #precios{ height:auto; padding-bottom:30px; }
+    #fondoPrecios{ display:none; }
+    #contPrecios{ margin-top:0px; }
+    .usuarioModulo{ width:100%; }
+    .menuTexto{ width:150px; }
+    .divH1{ padding-left:31%; }
 }
 
 @media print, screen and (max-width: 870px) {
-	#queEsHome{ padding-top:120px;  }
-	.textoQue{ padding-top:0px; }
-	#imgQue{ text-align:right; }
-	#imgQue img{ width:100%; }
-	.testimonio{ margin:30px; }
-	#testimonios{ padding-top:120px; }
-	#dinoHome{ margin-left:0px; }
-	.homeModulo{ width:300px; min-width:0px; width: 43%; padding: 30px; }
-	.izquierdaTexto{ width:49%; padding-left:20px; padding-right:20px;}
-	.derechaTexto{ width:49%; padding-left:20px; padding-right:10px;}
-	.derechaImagen{ width:49%; }
-	.izquierdaImagen{ width: 50%;padding-left: 5%; }
-	#contMenuTop{ display:none;     margin-right: 0px;}
-	.hamburguesa{ display:block; }
-	#divAcceder{ margin-bottom: 15px; margin-top:10px;}
-	.menuTop{ margin: 0px; clear: both; }
-	#interiorLogo{ width:30%; }
-	#interiorLogo img{ width:200px; }
-	#interiorCabeceraDerecha{ width:69%; }
-	#interiorCabeceraDerecha{ width:69%; }
-	#interiorMenu{ width:30%; }
-	.interiorContenedor{  padding:20px 40px 0px 10px; width:69%;}
-	#tablaProyectos .td{ display:block; }
-	#tablaFacturas .td{ display:block; }
-	.moduloOffPage{ width:100%; }
-	.divH1{ padding-left:33%; }
+    #queEsHome{ padding-top:120px;  }
+    .textoQue{ padding-top:0px; }
+    #imgQue{ text-align:right; }
+    #imgQue img{ width:100%; }
+    .testimonio{ margin:30px; }
+    #testimonios{ padding-top:120px; }
+    #dinoHome{ margin-left:0px; }
+    .homeModulo{ width:300px; min-width:0px; width: 43%; padding: 30px; }
+    .izquierdaTexto{ width:49%; padding-left:20px; padding-right:20px;}
+    .derechaTexto{ width:49%; padding-left:20px; padding-right:10px;}
+    .derechaImagen{ width:49%; }
+    .izquierdaImagen{ width: 50%;padding-left: 5%; }
+    #contMenuTop{ display:none;     margin-right: 0px;}
+    .hamburguesa{ display:block; }
+    #divAcceder{ margin-bottom: 15px; margin-top:10px;}
+    .menuTop{ margin: 0px; clear: both; }
+    #interiorLogo{ width:30%; }
+    #interiorLogo img{ width:200px; }
+    #interiorCabeceraDerecha{ width:69%; }
+    #interiorCabeceraDerecha{ width:69%; }
+    #interiorMenu{ width:30%; }
+    .interiorContenedor{  padding:20px 40px 0px 10px; width:69%;}
+    #tablaProyectos .td{ display:block; }
+    #tablaFacturas .td{ display:block; }
+    .moduloOffPage{ width:100%; }
+    .divH1{ padding-left:33%; }
 }
 
 @media print, screen and (max-width: 720px) {
-	.menuTexto{ width:120px; padding-left:0px;}
-	.menuIcono{ display:none; }
+    .menuTexto{ width:120px; padding-left:0px;}
+    .menuIcono{ display:none; }
 }
 
 @media print, screen and (max-width: 550px) {
-	.menuTexto{ width:100px; }
+    .menuTexto{ width:100px; }
 }
 
 @media print, screen and (max-height: 450px) {
-	#above{ margin-top:-150px; }
-	#h1Home{ font-size:60px; }
-	.textoCohete{ font-size:44px; }
-	#diagonal{ margin-top:-50px; }
-	.h2Home{ font-size: 25px;}
-	.divHome{ height:auto; overflow:auto;}
-	#above .divHome{ height:100px !important; }
-	.contFunc{  }
+    #above{ margin-top:-150px; }
+    #h1Home{ font-size:60px; }
+    .textoCohete{ font-size:44px; }
+    #diagonal{ margin-top:-50px; }
+    .h2Home{ font-size: 25px;}
+    .divHome{ height:auto; overflow:auto;}
+    #above .divHome{ height:100px !important; }
+    .contFunc{  }
 }
 
 @media print, screen and (max-width: 480px) {
-	#interiorMenu{ position:relative;display:none; width:100%; height:auto;}
-	.interiorContenedor{ width:100%; padding: 10px 10px 0px 10px;}
-	.homeModulo{ width:90%; }
-	#interiorLogo{ width:100%; position:relative;}
-	#interiorCabeceraDerecha{ width:100%; height:75px;}
-	#interiorUsuario{ float:left; padding:10px;}
-	#botonMovil{ display:block; float:right; margin:20px; }
-	.auditButton{ clear:both; margin:20px; }
-	.moduloOffPage{ width:100%; padding-left:10px; padding-right:10px; }
-	#tablaEnlacesExternos .trTitle{ display:none; }
-	#tablaEnlacesExternos .td{ display:block; }
-	#tablaKeywords .trTitle{ display:none; }
-	#tablaKeywords .td{ display:block; }
-	#tablaTracking .trTitle{ display:none; }
-	#tablaTracking .td{ display:block; }
-	#listaUrls .trTitle{ display:none; }
-	#listaUrls .td{ display:block; }
-	#dataDensidad .trTitle{ display:none; }
-	#dataDensidad .td{ display:block; }
-	.noneCell{ display:inline; }
-	.noneMovil{ display:none !important; }
-	#botonesTracking{ width:100%; }
-	.divHome{ height:auto; }
-	#above{ margin-top:-350px; }
-	#dinoHome{ width:100%; }
-	.beneficio{ float:none;width:100%; }
-	#imagenQueEs{ display:none; }
-	.izquierdaImagen{ float:none; width:100%; padding-left:0px; padding-right:0px; padding:10px; }
-	.izquierdaTexto{ float:none; width:100%; padding-left:0px; padding-right:0px; padding:25px; }
-	.derechaImagen{  float:none; width:100%; padding-left:0px; padding-right:0px; padding:10px; }
-	.derechaTexto{ float:none; width:100%; padding-left:0px; padding-right:0px; padding:25px;  }
-	.contFunc{ }
-	#controlKeyword0{ display:block; }
-	#controlPagerank0{ display:block; }
-	#controlAuditoria0{ display:block; }
-	#controlArquitectura0{ display:block; }
-	#controlDensidad0{ display:block; }
-	#controlAnalisis0{ display:block; }
-	#controlGestion0{ display:block; }
-	#controlDeteccion0{ display:block; }
-	#contPrecios{ padding-top:0px; margin-top:0px; }
-	#precios{ padding-top:100px; }
-	#subContPrecios{ width:100%; padding:20px; }
-	.producto{ width:100%; margin:0px; margin-top:30px; font-size:16px; padding:20px;}
-	.testimonio{ width:90%; margin:5%; float:none; }
-	.testContPersona{ overflow:auto; }
-	#aboveH1{ width:100%; }
-	#h1Home{ font-size:65px; }
-	.textoCohete{ font-size:44px; }
-	#diagonal{ display:none; }
-	#funcDesp{ right:0px; }
-	#menuTop{ background-image: linear-gradient(150deg, #72DBA2 0%, #4FBAB0 100%); }
-	.h2Home{ font-size: 25px;}
-	#subContPrecios{ margin-top:0px; }
-	#tablaAlertas .trTitle{ display:none; }
-	#tablaAlertas .td{ display:block; }
-	.menuTexto{ width:280px; }
-	.divH1{ overflow:auto; padding-left:1px; text-align:center; height:auto; padding-bottom:10px;}
-	.divH1 h1{ font-size:2rem; }
-	.textoQue{ width:100%; }
-	#imgQue{ width:100%; }
-	#dinoHome{ margin-top:50px; padding-left:0px;}
-	.contFunc{ margin: 0px 0px 0px 0px; }
-	.productoContenido{ font-size:16px;  }
-	.celdaCorta{ width:auto; }
-	.modal-dialog{ width:95% !important; }
-	#copyright{ float:none; width:100%; }
-	#madridManda{ float:none; width:100%; text-align:left;}
-	#legalPie{ float:none; width:100%; text-align:left;}
+    #interiorMenu{ position:relative;display:none; width:100%; height:auto;}
+    .interiorContenedor{ width:100%; padding: 10px 10px 0px 10px;}
+    .homeModulo{ width:90%; }
+    #interiorLogo{ width:100%; position:relative;}
+    #interiorCabeceraDerecha{ width:100%; height:75px;}
+    #interiorUsuario{ float:left; padding:10px;}
+    #botonMovil{ display:block; float:right; margin:20px; }
+    .auditButton{ clear:both; margin:20px; }
+    .moduloOffPage{ width:100%; padding-left:10px; padding-right:10px; }
+    #tablaEnlacesExternos .trTitle{ display:none; }
+    #tablaEnlacesExternos .td{ display:block; }
+    #tablaKeywords .trTitle{ display:none; }
+    #tablaKeywords .td{ display:block; }
+    #tablaTracking .trTitle{ display:none; }
+    #tablaTracking .td{ display:block; }
+    #listaUrls .trTitle{ display:none; }
+    #listaUrls .td{ display:block; }
+    #dataDensidad .trTitle{ display:none; }
+    #dataDensidad .td{ display:block; }
+    .noneCell{ display:inline; }
+    .noneMovil{ display:none !important; }
+    #botonesTracking{ width:100%; }
+    .divHome{ height:auto; }
+    #above{ margin-top:-350px; }
+    #dinoHome{ width:100%; }
+    .beneficio{ float:none;width:100%; }
+    #imagenQueEs{ display:none; }
+    .izquierdaImagen{ float:none; width:100%; padding-left:0px; padding-right:0px; padding:10px; }
+    .izquierdaTexto{ float:none; width:100%; padding-left:0px; padding-right:0px; padding:25px; }
+    .derechaImagen{  float:none; width:100%; padding-left:0px; padding-right:0px; padding:10px; }
+    .derechaTexto{ float:none; width:100%; padding-left:0px; padding-right:0px; padding:25px;  }
+    .contFunc{ }
+    #controlKeyword0{ display:block; }
+    #controlPagerank0{ display:block; }
+    #controlAuditoria0{ display:block; }
+    #controlArquitectura0{ display:block; }
+    #controlDensidad0{ display:block; }
+    #controlAnalisis0{ display:block; }
+    #controlGestion0{ display:block; }
+    #controlDeteccion0{ display:block; }
+    #contPrecios{ padding-top:0px; margin-top:0px; }
+    #precios{ padding-top:100px; }
+    #subContPrecios{ width:100%; padding:20px; }
+    .producto{ width:100%; margin:0px; margin-top:30px; font-size:16px; padding:20px;}
+    .testimonio{ width:90%; margin:5%; float:none; }
+    .testContPersona{ overflow:auto; }
+    #aboveH1{ width:100%; }
+    #h1Home{ font-size:65px; }
+    .textoCohete{ font-size:44px; }
+    #diagonal{ display:none; }
+    #funcDesp{ right:0px; }
+    #menuTop{ background-image: linear-gradient(150deg, #72DBA2 0%, #4FBAB0 100%); }
+    .h2Home{ font-size: 25px;}
+    #subContPrecios{ margin-top:0px; }
+    #tablaAlertas .trTitle{ display:none; }
+    #tablaAlertas .td{ display:block; }
+    .menuTexto{ width:280px; }
+    .divH1{ overflow:auto; padding-left:1px; text-align:center; height:auto; padding-bottom:10px;}
+    .divH1 h1{ font-size:2rem; }
+    .textoQue{ width:100%; }
+    #imgQue{ width:100%; }
+    #dinoHome{ margin-top:50px; padding-left:0px;}
+    .contFunc{ margin: 0px 0px 0px 0px; }
+    .productoContenido{ font-size:16px;  }
+    .celdaCorta{ width:auto; }
+    .modal-dialog{ width:95% !important; }
+    #copyright{ float:none; width:100%; }
+    #madridManda{ float:none; width:100%; text-align:left;}
+    #legalPie{ float:none; width:100%; text-align:left;}
 }
-
 
