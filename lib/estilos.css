@@ -252,6 +252,10 @@ th a { color:#000; font-weight:bold;}
 .ellipsis{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .tablaCanibaliza{ display:none; }
 
+.tablaDensidad{width:95%;margin:auto;}
+.tablaDensidad tr{ border-bottom:1px #f2f2f2 solid; }
+
+
 .izquierda{ text-align:left !important; }
 .centro{ text-align:center !important; }
 .derecha{ text-align:right !important; }
